@@ -1,6 +1,5 @@
 
 
-```markdown
 # Mass Attack Script
 
 ![GitHub](https://img.shields.io/github/license/fezarosa-dev/massattack)
