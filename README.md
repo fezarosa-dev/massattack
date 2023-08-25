@@ -13,7 +13,6 @@ Make sure you have Python and pip installed on your system. If you don't have Py
 
 ```bash
 pkg install python
-```
 
 ## Installation
 
