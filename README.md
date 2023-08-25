@@ -1,55 +1,72 @@
+
+
 ```markdown
 # Mass Attack Script
 
-Este é um script Python que realiza um ataque de sobrecarga em um site usando múltiplas threads. O ataque é feito enviando várias solicitações HTTP para o site alvo. O script permite que você defina o URL do site e o número de threads a serem usadas para o ataque.
+![GitHub](https://img.shields.io/github/license/fezarosa-dev/massattack)
+![GitHub stars](https://img.shields.io/github/stars/fezarosa-dev/massattack)
 
-## Requisitos
+This is a Python script that performs a flood attack on a website using multiple threads. The attack is conducted by sending multiple HTTP requests to the target site. The script allows you to set the target URL and the number of threads to be used for the attack.
 
-Certifique-se de ter o Python e o pip instalados no seu sistema. Se você não tiver o Python instalado, você pode instalá-lo usando o Termux com o seguinte comando:
+## Requirements
+
+Make sure you have Python and pip installed on your system. If you don't have Python installed, you can install it using Termux with the following command:
 
 ```bash
 pkg install python
 ```
 
-## Instalação
-
-1. Clone este repositório para o seu sistema ou baixe-o como um arquivo ZIP e descompacte.
-
-2. Navegue para o diretório do repositório usando o Terminal.
-
-3. Instale as dependências usando o seguinte comando:
+## Installation
 
 ```bash
+pkg install git
+git clone https://github.com/fezarosa-dev/massattack.git
+cd massattack
 pip install -r requirements.txt
 ```
 
-## Como Usar
+## Usage
 
-1. Abra o Termux e navegue até o diretório onde o script está localizado.
+1. Open Termux and navigate to the directory where the script is located:
 
-2. Execute o script usando o seguinte comando:
+```bash
+cd /path/to/massattack
+```
+
+2. Run the script using the following command:
 
 ```bash
 python script.py
 ```
 
-3. O script solicitará a URL do site que você deseja atacar e o número de threads a serem usadas. Siga as instruções na tela.
+3. The script will prompt you for the target URL and the number of threads to use. Follow the on-screen instructions.
 
-4. Digite a senha correta quando solicitado (a senha é "1919").
+4. Enter the correct password when prompted (the password is "1919").
 
-5. O ataque começará e você verá o progresso de cada thread no terminal.
+5. The attack will start, and you will see the progress of each thread in the terminal.
 
-6. Para interromper o ataque, pressione `Ctrl + C`.
+6. To stop the attack, press `Ctrl + C`.
 
-## Aviso
+<details>
+<summary>Copy-paste Commands</summary>
 
-Este script é fornecido apenas para fins educacionais. Não é recomendado usar esse script para ataques maliciosos ou ilegais. O uso inadequado deste script pode violar a lei e causar danos a sistemas ou redes.
-
-## Autor
-
-Seu Nome
+```bash
+pkg install python git
+git clone https://github.com/fezarosa-dev/massattack.git
+cd massattack
+pip install -r requirements.txt
+python script.py
 ```
 
-Substitua "Seu Nome" pelo seu nome real ou apelido, conforme preferir.
+</details>
 
-Lembre-se de que este é apenas um exemplo básico de README. Você pode adicionar mais detalhes, informações de contato, informações de licença e outras informações relevantes ao seu projeto. Certifique-se também de personalizar o README com informações específicas sobre o seu script e como ele funciona.
+## Disclaimer
+
+This script is provided for educational purposes only. It is not recommended to use this script for malicious or illegal activities. Improper use of this script may violate the law and cause damage to systems or networks.
+
+## License
+
+This project is licensed under the XYZ License - see the [LICENSE](LICENSE) file for details.
+```
+
+Substitua `/path/to/massattack` pelo caminho real para o diretório onde você clonou o repositório. Certifique-se de também verificar e atualizar os detalhes da licença de acordo com a licença real do seu projeto.
